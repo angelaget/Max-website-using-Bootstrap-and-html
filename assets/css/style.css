@@ -7255,7 +7255,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 36px; }
 
 .career-section-title {
-  margin-bottom: 52px; }
+  margin-bottom: 25px; }
 
 .service-list .list-group-item {
   padding: 8px 0;
@@ -7298,8 +7298,9 @@ html {
   scroll-behavior: smooth; }
 
 .hiro-header.home-header {
-  background-image: linear-gradient(to right, #fff 0%, #fff 70%, #000 70%, #000 100%);
   background-size: cover;
+  background: rgb(255,233,110);
+  background: radial-gradient(circle, rgba(255,233,110,1) 0%, rgba(68,215,182,1) 92%);
   background-repeat: no-repeat;
   background-position: center; }
   @media (max-width: 767px) {
@@ -7667,7 +7668,7 @@ html {
     margin-bottom: 0; }
 
 .team-section {
-  background-color: #050605; }
+  background-color: white }
   .team-section .section-title {
     color: #fff;
     margin-top: 40px;
@@ -7723,7 +7724,7 @@ html {
 
 .career-section .section-title {
   position: relative;
-  padding-bottom: 50px; }
+  padding-bottom: 25px; }
   .career-section .section-title::after {
     content: "";
     display: block;
@@ -7731,7 +7732,7 @@ html {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 8px;
+    height: 6px;
     background-image: url("../images/career_line@1x.svg");
     background-size: auto 8px; }
 
